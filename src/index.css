@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
+@theme {
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  
+  --color-primary: #1F3A2E;
+  --color-secondary: #6B8A73;
+  --color-gold: #C8A96B;
+  --color-bg: #F8F6F1;
+  --color-dark: #111315;
+  --color-text: #1B1D1F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Swiper Styles */
+.swiper-pagination-hero .swiper-pagination-bullet {
+  display: inline-block !important;
+  width: 35px !important;
+  height: 1.5px !important;
+  background-color: #ffffff !important;
+  border-radius: 0px !important;
+  opacity: 0.3 !important;
+  transition: all 0.4s ease !important;
+  cursor: pointer !important;
+}
+
+.swiper-pagination-hero .swiper-pagination-bullet-active {
+  background-color: #C8A96B !important;
+  opacity: 1 !important;
+  width: 55px !important;
+}
